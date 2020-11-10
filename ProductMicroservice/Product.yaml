@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: productrepository
-        image: rbankcr.azurecr.io/productrepository:latest
+        image: containerr1.azurecr.io/productrepository:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
